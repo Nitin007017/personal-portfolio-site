@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&family=Poltawski+Nowy:wght@700&display=swap');
+.contactform
+{
+background-image: url(backgroundimg6.png);
+display: flex;
+flex-direction: column;
+background-size: cover;
+height: 800px;
+}
+.about
+{
+color: rgb(241, 16, 13);
+margin-top: -20%;
+}
+.skillcontanor
+{
+margin-top: 10px;
+margin-left: 30px;
+}
+.skill
+{
+display: flex;
+align-items: center;
+margin-top: 30px;
+font-family: 'Playfair Display', serif;
+color: black;
+}
+.webimg
+{
+margin-left: 20px;
+height: 8vh;
+width: 4vw;
+border-radius: 70px;
+}
+
+.skill1
+{
+background-color: brown;
+height: 2vh;
+margin-left: 20px;
+/* margin-top: 30px; */
+font-weight: 900;
+}
+.html{
+/* background-color: black; */
+width: 32vw;
+
+}
+.css
+{
+/* background-color: black; */
+width: 34vw;
+background-color: rgb(1, 1, 84);
+}
+.javasc
+{
+width: 25vw;
+background-color: yellow;
+}
+.react
+{
+width: 20vw;
+background-color: aqua;
+}
+.cplus
+{
+width: 40vw;
+background-color: rgb(8, 120, 249);}
+.me{
+font-size: 45px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 700;
+}
+.hamberger1
+{
+    position: absolute;
+    left: 1285px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.iron1{
+    height: 45px;
+    width: 45px;
+    margin-top: -30px;
+}
+.cross1
+{
+    height: 45px;
+    width: 45px;
+   margin-left: 124px;
+   margin-top: -30px;}
+@media(max-width:700px)
+{
+.skillcontanor
+{
+margin-top: -260px;
+}
+.webimg
+{
+width: 20vw;
+}
+}

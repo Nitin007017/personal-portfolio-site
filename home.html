@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Nitin Pandey Personal Portfolio</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="color: rgb(237, 17, 17); font-family: 'Bruno Ace SC', cursive, cursive; font-size: 40px; font-weight: 800;">7 SIR</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="project.html" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Aboutme.html" target="_blank">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html" target="_blank">Contact Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skill.html" target="_blank">MY Skills</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+    <div class="contanor" >
+    <div class="maincontent">
+       <div class="clientinfo">
+<div class="portfolioinfo">
+    <div class="info Hello"><p id="auto1" style="font-family: 'Zilla Slab', serif;">HI, This is</p> </div>
+<div class="info name" style="margin-top: -20px; color: crimson;font-family: 'Francois One', sans-serif; ">Nitin Pandey</div>
+<div class="info profile" style="font-family: 'Zilla Slab', serif ; "><h1>I'm a <span class="auto-type" style="color: rgb(207, 236, 24);"></span></h1></div>
+<!-- <div class="info profile" style="font-family: 'Zilla Slab', serif;"><</h1></div> -->
+<div class="buttons" ondrag=""><button class="download" id="download1" onmouseover="changefeature()" onmouseout="changefeature()">DOWNLOAD CV</button>
+<a href="https://github.com/Nitin007017" target="_blank"><img class="mediabutton" onmouseover="changesize()" onmouseout="changesize()" src="portfolio-image11.png" ></a>
+<div ><img src="portfolio-image2.png" alt="" class="media img1">
+<img src="portfolio-image3.png" alt="" class="media img2">
+<a href="https://leetcode.com/Nitin0007/"><img src="portfolio-image4.png"  class="media img3"></a>
+<img src="portfolio-image5.png" class="media img4">
+</div>
+</div>
+</div>
+<div><img src="portfolio-image1.png" class="portfolioimg">
+</div>
+</div>
+</div>
+</div>
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+ <script>
+ var typed = new Typed(".auto-type",
+  {
+  strings: ["Web Developer" , "Competitive Programmer"],
+  typeSpeed:150,
+  backSpeed:150,
+  loop:true
+  })
+  </script>
+  <script>
+  function changefeature()
+  {
+  let down =document.getElementById('download1') ;
+  if(down.style.backgroundColor!=='rgb(0, 255, 255)')
+  {
+  down.style.backgroundColor='rgb(0, 255, 255)';
+  // down.style.width='120px';
+  }
+  else
+  down.style.backgroundColor='  rgba(255, 164, 45, 0.915)';
+  }
+  function changesize()
+  {
+  let down=document.querySelector('.mediabutton');
+  }
+  </script>
+</body>
+
+
+</html>

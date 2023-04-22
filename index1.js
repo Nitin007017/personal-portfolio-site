@@ -1,0 +1,15 @@
+document.querySelector('.cross1').style.display='none';
+document.querySelector('.hamberger1').addEventListener('click',()=>
+{
+document.querySelector('.sidebar').classList.toggle('turnsidebar');
+if(document.querySelector('.sidebar').classList.contains('turnsidebar'))
+{
+document.querySelector('.cross1').style.display='none';
+document.querySelector('.iron1').style.display="inline";
+}
+else
+{
+    document.querySelector('.iron1').style.display="none";
+    document.querySelector('.cross1').style.display='inline';
+}
+},300)

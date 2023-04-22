@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');.aboutme{  
+     height: 1200px;
+    background-image: url(backgroundimg5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+
+}
+.myself
+{
+font-size: 60px;
+font-family: 'Castoro Titling', cursive;
+font-weight: bolder;
+margin-left: 10px;
+}
+.interset
+{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
